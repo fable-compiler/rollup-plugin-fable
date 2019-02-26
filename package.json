@@ -6,7 +6,10 @@
   "scripts": {
     "eslint": "eslint ./"
   },
-  "repository": "https://github.com/fable-compiler/Fable/tree/master/src/js/rollup-plugin-fable",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fable-compiler/rollup-plugin-fable.git"
+  },
   "publishConfig": {
     "registry": " https://registry.npmjs.org"
   },
@@ -19,10 +22,8 @@
   ],
   "author": "Joe Grund",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/fable-compiler/Fable/issues"
-  },
-  "homepage": "https://github.com/fable-compiler/Fable/tree/master/src/js/rollup-plugin-fable#readme",
+  "bugs": "https://github.com/fable-compiler/rollup-plugin-fable/issues",
+  "homepage": "https://github.com/fable-compiler/rollup-plugin-fable",
   "devDependencies": {
     "eslint": "3.19.0",
     "eslint-config-prettier": "1.7.0",
