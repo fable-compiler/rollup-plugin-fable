@@ -2,6 +2,10 @@
 
 Rollup plugin for [Fable](http://fable.io/) (F# to JS compiler)
 
+## Deprecation Notice
+
+**As of [Fable 3](https://fable.io/blog/Announcing-Nagareyama-4.html), this plugin isn't needed anymore, because Fable now generates JS files directly.**
+
 ## Installation
 
 ```npm install --save-dev babel-core rollup rollup-plugin-fable```
